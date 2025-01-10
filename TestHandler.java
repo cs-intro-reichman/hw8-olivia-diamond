@@ -155,7 +155,7 @@ public class TestHandler {
         String expected = "true";
         String actual = "";
         try {
-            actual += alice.follows("baz");
+            actual += alice.follows("Baz");
         } catch (Exception e) {
             actual = TesterMessagesEnum.ERROR + e.getMessage();
         }
